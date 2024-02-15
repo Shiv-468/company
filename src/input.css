@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menulist.show {
+    right: 0px;
+}
+
+.menuIcon.show .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+    transition: all 300ms linear;
+}
+
+.menuIcon.show .bar:nth-child(2) {
+    display: none;
+}
+
+.menuIcon.show .bar:nth-child(3) {
+    transform: translateY(2px) rotate(-45deg);
+    transition: all 300ms linear;
+}
+
+.bg-img1{
+    background-image: url(../dist/assets/images/Header-bg.png);
+    /* background-size: 100% 77%; */
+}
+.bg-2{
+    background-image: url(../dist/assets/images/bg-2.png);
+}
+.bg-3{
+    background-image: url(../dist/assets/images/bg-3.png);
+}
+
