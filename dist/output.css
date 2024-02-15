@@ -580,6 +580,50 @@ video {
   }
 }
 
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.right-\[\]{
+  right: ;
+}
+
+.right-\[50\%\]{
+  right: 50%;
+}
+
+.right-\[\%\]{
+  right: %;
+}
+
+.right-\[54\%\]{
+  right: 54%;
+}
+
+.top-\[10\]{
+  top: 10;
+}
+
+.top-\[10\%\]{
+  top: 10%;
+}
+
+.top-\[\%\]{
+  top: %;
+}
+
+.top-\[40\%\]{
+  top: 40%;
+}
+
+.right-\[52\%\]{
+  right: 52%;
+}
+
 .z-10{
   z-index: 10;
 }
